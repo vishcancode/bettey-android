@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#080D18">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="42dp"
+            android:text="BETTEY"
+            android:textColor="#75D5FF"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.18" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="YOUR PERSONAL AI"
+            android:textColor="#A8B7CC"
+            android:textSize="12sp"
+            android:letterSpacing="0.20" />
+
+        <TextView
+            android:id="@+id/statusText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:gravity="center"
+            android:text="Ready when you are."
+            android:textColor="#E7F1FF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/heardText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:gravity="center"
+            android:minHeight="72dp"
+            android:padding="16dp"
+            android:background="#142238"
+            android:text="Your voice command will appear here."
+            android:textColor="#C5D5E8"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/listenButton"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginTop="30dp"
+            android:text="TALK TO BETTEY"
+            android:textAllCaps="false"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="TRY THESE COMMANDS\n• Open settings\n• Open camera\n• Call 9876543210\n• What time is it?\n\nCalling opens the dialer for your confirmation. No call is placed automatically."
+            android:textColor="#9FB0C6"
+            android:textSize="14sp"
+            android:lineSpacingExtra="6dp" />
+    </LinearLayout>
+</ScrollView>
